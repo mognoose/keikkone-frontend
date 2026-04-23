@@ -5,6 +5,15 @@
   margin-bottom: 1.5rem;
 }
 
+@media (max-width: 768px) {
+
+  .filters {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 calc(50% - 0.5rem);
+  }
+}
+
 .filter-group {
   display: flex;
   flex-direction: column;
