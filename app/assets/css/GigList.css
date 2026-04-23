@@ -1,0 +1,96 @@
+.gig-section {
+  max-width: 960px;
+  margin: 2rem auto;
+  padding: 0 2rem;
+}
+
+.no-results {
+  text-align: center;
+  color: #888;
+  padding: 2rem 0;
+  font-style: italic;
+}
+
+.gig-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.gig-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.25rem;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  transition: box-shadow 0.2s;
+}
+
+.gig-card:hover {
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.gig-date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 48px;
+  padding: 0.4rem 0.5rem;
+  background: #e63946;
+  border-radius: 8px;
+  color: #fff;
+  line-height: 1.1;
+}
+
+.gig-day {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.gig-month {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.gig-info {
+  flex: 1;
+}
+
+.gig-artist {
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #111;
+}
+
+.gig-venue {
+  margin: 0.15rem 0 0;
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.gig-meta {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 0.35rem;
+}
+
+.gig-genre {
+  font-size: 0.75rem;
+  background: #f0f0f0;
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+  color: #555;
+}
+
+.gig-price {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #e63946;
+}
