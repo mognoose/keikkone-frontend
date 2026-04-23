@@ -6,7 +6,7 @@
 
 .no-results {
   text-align: center;
-  color: #888;
+  color: var(--text-muted);
   padding: 2rem 0;
   font-style: italic;
 }
@@ -25,10 +25,10 @@
   align-items: center;
   gap: 1rem;
   padding: 1rem 1.25rem;
-  background: #fff;
-  border: 1px solid #eee;
+  background: var(--surface);
+  border: 1px solid var(--border-light);
   border-radius: 10px;
-  transition: box-shadow 0.2s;
+  transition: box-shadow 0.2s, background 0.3s;
 }
 
 .gig-card:hover {
@@ -41,7 +41,7 @@
   align-items: center;
   min-width: 48px;
   padding: 0.4rem 0.5rem;
-  background: #e63946;
+  background: var(--accent);
   border-radius: 8px;
   color: #fff;
   line-height: 1.1;
@@ -66,13 +66,13 @@
   margin: 0;
   font-size: 1.05rem;
   font-weight: 700;
-  color: #111;
+  color: var(--text);
 }
 
 .gig-venue {
   margin: 0.15rem 0 0;
   font-size: 0.85rem;
-  color: #666;
+  color: var(--text-secondary);
 }
 
 .gig-meta {
@@ -83,14 +83,14 @@
 
 .gig-genre {
   font-size: 0.75rem;
-  background: #f0f0f0;
+  background: var(--tag-bg);
   padding: 0.15rem 0.5rem;
   border-radius: 4px;
-  color: #555;
+  color: var(--text-label);
 }
 
 .gig-price {
   font-size: 0.75rem;
   font-weight: 600;
-  color: #e63946;
+  color: var(--accent);
 }

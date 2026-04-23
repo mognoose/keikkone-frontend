@@ -25,22 +25,23 @@
 .filter-label {
   font-size: 0.8rem;
   font-weight: 600;
-  color: #555;
+  color: var(--text-label);
   text-transform: uppercase;
   letter-spacing: 0.03em;
 }
 
 .filter-select {
   padding: 0.5rem 0.75rem;
-  border: 2px solid #ddd;
+  border: 2px solid var(--border);
   border-radius: 8px;
   font-size: 0.9rem;
-  background: #fff;
+  background: var(--surface);
+  color: var(--text);
   cursor: pointer;
   outline: none;
-  transition: border-color 0.2s;
+  transition: border-color 0.2s, background 0.3s, color 0.3s;
 }
 
 .filter-select:focus {
-  border-color: #e63946;
+  border-color: var(--accent);
 }

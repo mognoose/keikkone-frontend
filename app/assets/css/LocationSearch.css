@@ -11,7 +11,7 @@
   font-size: 1.15rem;
   font-weight: 600;
   margin-bottom: 0.75rem;
-  color: #222;
+  color: var(--text);
 }
 
 .location-icon {
@@ -23,15 +23,17 @@
   width: 100%;
   padding: 0.75rem 1rem;
   font-size: 1rem;
-  border: 2px solid #ddd;
+  border: 2px solid var(--border);
   border-radius: 8px;
   outline: none;
-  transition: border-color 0.2s;
+  transition: border-color 0.2s, background 0.3s, color 0.3s;
   box-sizing: border-box;
+  background: var(--surface);
+  color: var(--text);
 }
 
 .location-input:focus {
-  border-color: #e63946;
+  border-color: var(--accent);
 }
 
 .quick-buttons {
@@ -43,9 +45,10 @@
 
 .quick-btn {
   padding: 0.5rem 1.25rem;
-  border: 2px solid #ddd;
+  border: 2px solid var(--border);
   border-radius: 20px;
-  background: #fff;
+  background: var(--surface);
+  color: var(--text);
   font-size: 0.9rem;
   cursor: pointer;
   transition: all 0.2s;
@@ -53,12 +56,12 @@
 }
 
 .quick-btn:hover {
-  border-color: #e63946;
-  color: #e63946;
+  border-color: var(--accent);
+  color: var(--accent);
 }
 
 .quick-btn.active {
-  background: #e63946;
-  border-color: #e63946;
+  background: var(--accent);
+  border-color: var(--accent);
   color: #fff;
 }
